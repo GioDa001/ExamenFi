@@ -1,0 +1,62 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\author{Giovanni Álvarez}
+\begin{document}
+	
+	%\title{Tablas}
+	%\date{}
+	%\maketitle
+	
+	\section{Ejercicio} % Sección 1
+	
+	Para obtener una simple tabla sin líneas:
+	
+	\begin{tabular}{l c r} % Tabulación y Divisor
+		1 & 2 & 3 \\ 
+		4 & 5 & 6 \\
+		7 & 8 & 9 \\
+	\end{tabular}
+
+\section{Ejercicio} % Sección 2
+
+Para obtener esta tabla en la que añadimos algunas líneas verticlaes:
+
+\begin{tabular}{| l || c || r |} % Tabulación y Divisor
+	1 & 2 & 3 \\ 
+	4 & 5 & 6 \\
+	7 & 8 & 9 \\
+\end{tabular}
+
+\section{Ejercicio} % Sección 3
+
+Ahora con líneas horizontales: superior e inferior
+
+\begin{tabular}{| l | c | r |} % Tabulación y Divisor
+	\hline % Línea tan larga como la tabla
+	1 & 2 & 3 \\ 
+	4 & 5 & 6 \\
+	7 & 8 & 9 \\
+	\hline
+\end{tabular}
+
+\section{Ejercicio} % Sección 4
+
+Ahora con líneas horizontales: superior e inferior
+
+\begin{center}
+\begin{tabular}{| l | c | r |} % Tabulación y Divisor
+	\hline % Línea tan larga como la tabla
+	10 & 22 & 33\\ \hline
+	44 & 55 & 66 \\ \hline
+	77 & 88 & 99 \\
+	\hline
+\end{tabular}
+\end{center}	
+	
+\end{document}
